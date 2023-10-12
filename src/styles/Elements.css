@@ -1,0 +1,54 @@
+.title-element1{
+    font-size: 42px;
+    color: #4D4D4D;
+    line-height: 43px;
+    margin: 0;
+}
+
+.title-element1-date{
+    color: #4CAF4F;
+    display: block;
+}
+
+.title-element1-description{
+    color: #717171;
+    font-size: 12px;
+    margin-top: 15px;
+    margin-bottom: 23px;
+    
+}
+.element1-block{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-block: 78px;
+    background-color: #F5F7FA;
+    padding-left: 2.5%;
+    padding-right: 3%;
+}
+.left-part-element1{
+   
+}
+/*repeated the same thing as the registered button without the margin*/
+.register-button-element1{
+    padding: 13px 25px;
+    font-size: 13px;
+    background-color:#4CAF4F ;
+    border-radius: 0.2rem;
+    border: none;
+    color: #FFF ;
+    cursor: pointer;
+    font-family: 'Inter', sans-serif;
+}
+
+.element1-threedots{
+    position: absolute;
+    bottom: 13px;
+    left: 48.9%;
+    color: #4CAF4F;
+}
+.dots{
+    margin-inline: 2px;
+}
