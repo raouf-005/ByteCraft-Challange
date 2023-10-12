@@ -9,8 +9,8 @@
     color: #4CAF4F;
     display: block;
 }
-
-.title-element1-description{
+/*i need to modify the marin for element 2 */
+.title-element1-description ,.title-description{
     color: #717171;
     font-size: 12px;
     margin-top: 15px;
@@ -51,4 +51,63 @@
 }
 .dots{
     margin-inline: 2px;
+}
+/* element2*/
+.icones{
+    object-fit: contain;
+}
+
+.element2-block,.element3-block{
+    text-align: center;
+
+}
+.Clients-liste-element2{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 51px;
+
+}
+ /* element 3*/
+.categoryTemplate-element3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+.elements-template{
+    align-items: center;
+    justify-items: center;
+    display: grid;
+    grid-template-rows: 40px 60px 70px;
+    height: 170px;
+    row-gap: 6px;
+    width: 210px;
+    padding: 14px 15px;
+    border-radius: 3px;
+    box-shadow: 0px 0.66773px 1.33547px 0px rgba(171, 190, 209, 0.20);
+}
+.title-element3-category{
+    margin: 0;
+    font-family: inter;
+   
+}
+.title-description-element3{
+    margin: 0;
+    color: #717171;
+    font-size: 12px;
+}
+.elements-template-img{
+    object-fit: cover;
+    width: 40px;
+    position: relative;
+}
+
+.img-absolute-green{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: #E8F5E9;
+    right: -25%;
+    bottom: -25%;
+    border-radius: 6.01px 1.669px 3.339px 1.669px;
 }

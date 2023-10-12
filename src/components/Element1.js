@@ -10,7 +10,7 @@ const Dots = ()=> {
         <svg xmlns="http://www.w3.org/2000/svg" width="8" height="8" viewBox="0 0 8 8" fill="none" className="dots">
             <circle cx="3.64075" cy="3.79797" r="3.48035" fill="#4CAF4F" />
         </svg>
-        <svg xmlns="http://www.w3.org/2000/svg" width="8" height="8" viewBox="0 0 8 8" fill="none" className="dots">
+        <svg xmlns="http://www.w3.org/2000/svg" width="8" height="8" viewBox="0 0 8 8" fill="none" className="dots" >
             <circle opacity="0.3" cx="4.17004" cy="3.79797" r="3.48035" fill="#4CAF4F" />
         </svg>
         <svg xmlns="http://www.w3.org/2000/svg" width="8" height="8" viewBox="0 0 8 8" fill="none" className="dots">
