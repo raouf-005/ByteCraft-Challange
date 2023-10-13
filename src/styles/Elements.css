@@ -9,12 +9,13 @@
     color: #4CAF4F;
     display: block;
 }
-/*i need to modify the marin for element 2 */
-.title-element1-description ,.title-description{
+/*i need to modify the margin for element 2 */
+.title-element1-description ,.title-description, .description-element4{
     color: #717171;
     font-size: 12px;
     margin-top: 15px;
     margin-bottom: 23px;
+    max-width: 420px;
     
 }
 .element1-block{
@@ -32,7 +33,7 @@
    
 }
 /*repeated the same thing as the registered button without the margin*/
-.register-button-element1{
+.register-button-element1 ,.Learn-more-button{
     padding: 13px 25px;
     font-size: 13px;
     background-color:#4CAF4F ;
@@ -72,6 +73,8 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    background-color: #4D4D4D;
+    padding: 40px 0px;
 
 }
 .elements-template{
@@ -96,18 +99,44 @@
     color: #717171;
     font-size: 12px;
 }
-.elements-template-img{
+.img-container-element3{
     object-fit: cover;
     width: 40px;
     position: relative;
 }
-
+.img-styling-element3{
+    width: 100%;
+    background-color: transparent;
+}
 .img-absolute-green{
     position: absolute;
-    width: 20px;
-    height: 20px;
+    width: 40px;
+    height: 40px;
+    left: 10px;
+    top: 6px;
     background-color: #E8F5E9;
-    right: -25%;
-    bottom: -25%;
-    border-radius: 6.01px 1.669px 3.339px 1.669px;
+    border-radius: 12.529px 3.48px 6.961px 3.48px;
+    z-index: -1;
+}
+
+
+/* element4 */
+.styling-img-element4{
+    width: 300px;
+    height: 300px;
+}
+.element4-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-block: 30px;
+}
+.text-container-element4{
+
+}
+.element4-title{
+    color: #4D4D4D;
+    font-weight: 600;
+    line-height: 122%;
+    max-width: 430px;
 }

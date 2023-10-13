@@ -14,7 +14,7 @@ export const Categoryarray=[
     {
         title:"National Associations",
         description:`Our membership management software provides
-         full automation of membership renewals and payments
+         full automation of membership renewals and  payments
         `,img:Associtions
     },
     {
@@ -30,10 +30,12 @@ export const Categoryarray=[
 export default function CategoryThemplate(props){
     return(
         <div className="elements-template">
-            <img src={props.img} className="elements-template-img"/>
-            <div className="img-absolute-green">
-                
+            <div className="img-container-element3">
+                <img src={props.img} className="img-styling-element3"/>
+                <div className="img-absolute-green">    
+                </div>
             </div>
+
         <h2 className="title-element3-category">
             {props.title}
         </h2>
