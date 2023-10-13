@@ -5,6 +5,8 @@ import Element3 from "./Element3";
 import Element4  from "./Element4";
 import Element5 from "./Element5";
 import Element6 from "./Element6";
+import Element7 from "./Element7";
+import Element8 from "./Element8";
 import { ReactComponent as Imgelement4 } from "../images/Frame 35.svg";
 import { ReactComponent as Imgelement6 } from "../images/pana.svg";
 
@@ -31,7 +33,10 @@ export default function Main()
           <Element5/>
           <Element4 {...element6data} />
           <Element6 />
+          <Element7 />
+          <Element8 />
         </div>
+          
     )
 
 }

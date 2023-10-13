@@ -1,6 +1,6 @@
 import "../styles/Elements.css"
-import {ReactComponent as Associtions} from "../images/icones/element3Icon/Icon (9).svg"
-import {ReactComponent as Membership} from "../images/icones/element3Icon/Icon (10).svg"
+import {ReactComponent as Membership} from "../images/icones/element3Icon/Icon (9).svg"
+import {ReactComponent as Associtions} from "../images/icones/element3Icon/Icon (10).svg"
 import {ReactComponent as Clubs} from "../images/icones/element3Icon/Icon (11).svg"
 
 export const Categoryarray=[
@@ -18,7 +18,7 @@ export const Categoryarray=[
         `,img:Associtions
     },
     {
-        title:"Clubs And Groups",
+        title:"Clubs And  Groups",
         description:`Our membership management software provides full 
         automation of membership renewals and payments
         `,img:Clubs

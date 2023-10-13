@@ -9,7 +9,7 @@ export default function Navbar(){
     return (
         <div className="Navbar">
             <div className="left-section-navbar"> 
-                <Nexcentlogo/>
+                <Nexcentlogo className="nav-logo"/>
             </div>
             <div className="right-section-navbar">
                 <button className="navbar-buttons home-button">
