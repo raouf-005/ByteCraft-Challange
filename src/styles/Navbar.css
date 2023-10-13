@@ -2,7 +2,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-block: 11.1px;
+    padding-block: 19px;
     padding-inline: 2.5% 3%;
 }
 .nav-logo{
@@ -22,7 +22,7 @@
     margin-right: 31px;
 }
 .register-button-navabar{
-    padding: 13px 25px;
+    padding: 16px 29px;
     font-size: 16px;
     background-color:#4CAF4F ;
     border-radius: 0.2rem;

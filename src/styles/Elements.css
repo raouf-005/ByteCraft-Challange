@@ -32,12 +32,13 @@
     padding-block: 78px;
     background-color: #F5F7FA;
     padding-inline: 5%;
+    margin-bottom: 40px;
 }
 .left-part-element1{
    
 }
 /*repeated the same thing as the registered button without the margin*/
-.register-button-element1 ,.Learn-more-button ,.demo-button-element8{
+.register-button-element1 ,.Learn-more-button {
     padding: 15px 34px;
     font-size: 16px;
     background-color:#4CAF4F ;
@@ -56,7 +57,8 @@
     color: #4CAF4F;
 }
 .dots{
-    margin-inline: 2px;
+    margin-inline: 3px;
+
 }
 /* element2*/
 .icones{
@@ -74,7 +76,7 @@
 .Clients-liste-element2{
     display: flex;
     justify-content: space-evenly;
-    margin-bottom: 51px;
+    margin-bottom: 75px;
 
 }
  /* element 3*/
@@ -93,7 +95,7 @@
     display: grid;
     grid-template-rows: 40px 60px 70px;
     height: auto;
-    row-gap: 20px;
+    row-gap: 35px;
     width: 280px;
     padding: 24px 23px;
     border-radius: 6px;
@@ -103,13 +105,15 @@
     margin: 0;
     font-family: inter;
     color: #4D4D4D;
-    font-size: 28px;
+    font-size: 34px;
+   
 
 }
 .title-description-element3{
     color: #717171;
-    font-size: 16px;
+    font-size: 16.1px;
     margin-bottom: 30px;
+    margin-top: 0;
 }
 .img-container-element3{
     object-fit: cover;
@@ -236,7 +240,6 @@
 .right-part-structure-element6{
     width: 790px;
     margin-top: 6px;
-    background-color: white;
     align-items: center;
 }
 .img-element6{
@@ -270,7 +273,7 @@
     font-weight: 600;
     background-color: transparent;
     border: none;
-    font-size: 15px;
+    font-size: 18px;
     padding: 7px 8px;
 }
 
@@ -287,6 +290,7 @@
 .desc-category-element7{
     color: #717171;
     font-weight: 600;
+    font-size: 19.5px;
 }
 
 .Image-category-element7{
@@ -301,7 +305,7 @@
     padding: 14px 10px;
     background-color: #F5F7FA;
     bottom: -23%;
-    left: 38px;
+    left: 38.5px;
     font-size: 20px;
     
     
@@ -310,7 +314,8 @@
 .bottom-section-element7{
     display: flex;
     justify-content: center;
-    gap: 28px;
+    gap: 31px;
+    margin-top: 20px;
    
 
 }
@@ -334,4 +339,15 @@
 .title-element8{
     margin-bottom: 30px;
     font-size: 64px;
+}
+.demo-button-element8{
+    padding: 21px 38px;
+    font-size: 18px;
+    background-color:#4CAF4F ;
+    border-radius: 0.3rem;
+    border: none;
+    color: #FFF ;
+    cursor: pointer;
+    font-family: 'Inter', sans-serif;
+    margin-top: 10px;
 }

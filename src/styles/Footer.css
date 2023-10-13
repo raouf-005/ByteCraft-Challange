@@ -25,7 +25,7 @@
     display: grid;
     margin-top: 10px;
     padding-block: 60px 20px;
-    grid-template-columns: 42% repeat(2,auto) 27%;
+    grid-template-columns: 42.9% repeat(2,auto) 29%;
     background-color: #263238;
     color: #F5F7FA;
     padding-left: 60px;
