@@ -1,7 +1,7 @@
 import "../styles/Elements.css"
-import Associtions from "../images/icones/Associations.jpg"
-import Membership from "../images/icones/Membrship.jpg"
-import Clubs from "../images/icones/Clubs.jpg"
+import {ReactComponent as Associtions} from "../images/icones/element3Icon/Icon (9).svg"
+import {ReactComponent as Membership} from "../images/icones/element3Icon/Icon (10).svg"
+import {ReactComponent as Clubs} from "../images/icones/element3Icon/Icon (11).svg"
 
 export const Categoryarray=[
     {
@@ -31,7 +31,7 @@ export default function CategoryThemplate(props){
     return(
         <div className="elements-template">
             <div className="img-container-element3">
-                <img src={props.img} className="img-styling-element3"/>
+                <props.img className="img-styling-element3"/>
                 <div className="img-absolute-green">    
                 </div>
             </div>

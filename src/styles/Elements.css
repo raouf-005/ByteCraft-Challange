@@ -73,7 +73,6 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    background-color: #4D4D4D;
     padding: 40px 0px;
 
 }
@@ -105,7 +104,8 @@
     position: relative;
 }
 .img-styling-element3{
-    width: 100%;
+    width: 40px;
+    height: 40px;
     background-color: transparent;
 }
 .img-absolute-green{
@@ -139,4 +139,111 @@
     font-weight: 600;
     line-height: 122%;
     max-width: 430px;
+}
+
+/* element5 */
+.left-section-element5{
+    display: inline-block;
+}
+
+.title-color-element5{
+    color: #4D4D4D;
+    line-height: 35px;
+    margin: 0;
+}
+.title-color-secondpart{
+ color:#4CAF4F ; 
+ display: block; 
+}
+
+.title-description-element5{
+    color: #18191F;
+    margin-block: 7px;
+}
+
+
+.icons-structure-display-element5{
+    display: grid;
+    max-width: 400px;
+    grid-template-columns: 1Fr 1fr;
+    row-gap: 14px;
+    column-gap: 50px;
+}
+.icon-number-element5{
+    margin: 0;
+}
+.icon-description-element5{
+    margin: 0;
+}
+.icon-propre-structure{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 12px;
+}
+.element5-structure{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 67px 20px;
+    background-color: #F5F7FA;
+    align-items: center;
+}
+
+.img-icon-element5{
+
+}
+
+.img-icon-element5{
+    height: 40px;
+    width: 40px;
+}
+
+/*element6*/
+.element6-structure{
+    display: flex;
+    justify-content: space-around;
+    align-items: top;
+    padding: 30px 10px;
+    background-color: #F5F7FA;
+}
+.right-part-structure-element6{
+    width: 550px;
+    margin-top: 6px;
+    background-color: white;
+}
+.img-element6{
+    object-fit: contain ;
+    object-position: center;
+    height: 350px;
+}
+.description-element6{
+    margin: 0;
+    color: #717171;
+
+
+}
+.author-element6{
+    color: #4CAF4F;
+    margin-block: 16px;
+    
+}
+.association-element6{
+    color:#89939E ;
+    margin-bottom: 25px;
+    margin-top: 0;
+}
+.icones-template-element6{
+    display: flex;
+    justify-content: space-between;
+}
+
+.button-styling-element6{
+    color:#4CAF4F ;
+    font-family: inter;
+    font-weight: 600;
+    background-color: transparent;
+    border: none;
+    font-size: 15px;
+    padding: 7px 8px;
 }
