@@ -12,6 +12,10 @@
 
 * i didn't wanna usestate for hover and onchange to not complicate it and it will take time so i didn't do it
 
+* i also did treat the mobile view
+
+
+
 Made by :
 Abderraouf Derardja 
 
