@@ -3,9 +3,9 @@ import "../styles/Elements.css"
 import { Categoryarray } from "./Categoryarray";
 import CategoryThemplate from "./Categoryarray"
 
-const category =Categoryarray.map((element)=>{
+const category =Categoryarray.map((element,index)=>{
     return (
-        <CategoryThemplate {...element}/>
+        <CategoryThemplate {...element} key={index}/>
     )
 })
 

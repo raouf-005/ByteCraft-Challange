@@ -6,9 +6,9 @@ import icone5 from "../images/icones/Logo (5).png"
 import icone6 from "../images/icones/Logo (6).png"
 const arrayicones= [icone6,icone1,icone2,icone3,icone4,icone5,icone2]
 
-export const Showicons =arrayicones.map((icone)=>{
+export const Showicons =arrayicones.map((icone ,index)=>{
     return (
-        <img src={icone} className="icones"/>
+        <img src={icone} className="icones" key={index}/>
     )
 })
 

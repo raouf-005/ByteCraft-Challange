@@ -81,3 +81,18 @@ h3{
     margin-top: 9px;
     margin-bottom: 23px;
 }
+
+@media(max-width:900px){
+    h3{
+        font-size: 19px;
+    }
+    .left-section-title{
+        font-size: 32px;
+    }
+    ul li{
+        font-size: 13px;
+    }
+    .left-section p{
+        font-size: 15px;
+    }
+}
