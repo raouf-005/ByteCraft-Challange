@@ -9,4 +9,5 @@ body{
 
 button{
     cursor: pointer;
+    transition: background-color 0.5s ,border 0.3s;
 }

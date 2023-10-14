@@ -38,9 +38,7 @@
     background-color: #F5F7FA;
     margin-bottom: 40px;
 }
-.left-part-element1{
-   
-}
+
 /*repeated the same thing as the registered button without the margin*/
 .register-button-element1 ,.Learn-more-button {
     padding: 15px 34px;
@@ -220,10 +218,6 @@
 }
 
 .img-icon-element5{
-
-}
-
-.img-icon-element5{
     height: 40px;
     width: 40px;
 }
@@ -274,9 +268,20 @@
     background-color: transparent;
     border: none;
     font-size: 16.5px;
-    padding: 7px 8px;
+    padding: 10px 12px;
+   
 }
-
+/*i could make them the same class but i was a little lazy*/
+.button-styling-element6:hover,.read-button-element7:hover{
+    background-color: #F5F7FA;
+    pointer-events: none;
+    border-radius: 4px;
+}
+.button-styling-element6:active,.read-button-element7:active{
+    background-color: #E8F5E9;
+    pointer-events: none;
+    border-radius: 4px;
+}
 /* element7 */
 .top-section-element7{
     text-align: center;
@@ -304,10 +309,10 @@
     padding: 14px 10px;
     background-color: #F5F7FA;
     bottom: -35%;
-    left: 5.6%;
+    left: 4.7%;
     font-size: 20px;
     height: 130Px;
-    width: 89%;
+    width: 91%;
     
     
 }
@@ -357,3 +362,18 @@
 
 
 
+.register-button-element1:active ,.Learn-more-button:active ,.demo-button-element8:active{
+    background-color: #388E3B;
+    border-radius: 4px;
+    border: none;
+    pointer-events: none;
+}
+
+.register-button-element1:focus,
+.Learn-more-button:focus,
+.read-button-element7:focus,
+.button-styling-element6:focus,.demo-button-element8:focus{
+    border: 3px solid  #4D4D4D;
+    border-radius: 4px;
+    pointer-events: none;
+}

@@ -31,8 +31,16 @@
     cursor: pointer;
     margin-left: 10px;
     font-family: 'Inter', sans-serif;
-    
 }
+.register-button-navabar:focus{
+    border: 3px solid  #4D4D4D;
+    pointer-events: none;
+}
+.register-button-navabar:active{
+    background-color: #388E3B;
+    pointer-events: none;
+}
+
 .right-section-navbar{
     display: flex;
     flex: 2;
