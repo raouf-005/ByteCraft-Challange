@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/ByteCraft-Challange/static/css/main.f2c007ab.css",
-    "main.js": "/ByteCraft-Challange/static/js/main.a6dbc8db.js",
+    "main.css": "/ByteCraft-Challange/static/css/main.c87049ad.css",
+    "main.js": "/ByteCraft-Challange/static/js/main.aab06c56.js",
     "static/js/787.f4eac384.chunk.js": "/ByteCraft-Challange/static/js/787.f4eac384.chunk.js",
     "static/media/Illustration.svg": "/ByteCraft-Challange/static/media/Illustration.33cb9ee2dbcc16be593db9b4dfbb1cab.svg",
     "static/media/image 18.png": "/ByteCraft-Challange/static/media/image 18.4dd70cd2ba0061f8cbff.png",
@@ -25,12 +25,12 @@
     "static/media/planeicon.svg": "/ByteCraft-Challange/static/media/planeicon.d8e794d9a4b5124c5e07653e884fb997.svg",
     "index.html": "/ByteCraft-Challange/index.html",
     "static/media/Icon.svg": "/ByteCraft-Challange/static/media/Icon.7040ce9c44a4bc1d02e52640d27b6c69.svg",
-    "main.f2c007ab.css.map": "/ByteCraft-Challange/static/css/main.f2c007ab.css.map",
-    "main.a6dbc8db.js.map": "/ByteCraft-Challange/static/js/main.a6dbc8db.js.map",
+    "main.c87049ad.css.map": "/ByteCraft-Challange/static/css/main.c87049ad.css.map",
+    "main.aab06c56.js.map": "/ByteCraft-Challange/static/js/main.aab06c56.js.map",
     "787.f4eac384.chunk.js.map": "/ByteCraft-Challange/static/js/787.f4eac384.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f2c007ab.css",
-    "static/js/main.a6dbc8db.js"
+    "static/css/main.c87049ad.css",
+    "static/js/main.aab06c56.js"
   ]
 }
