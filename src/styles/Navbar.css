@@ -1,13 +1,13 @@
 .Navbar{
     display: flex;
-    justify-content: space-between;
     align-items: center;
     padding-block: 19px;
     padding-inline: 2.5% 3%;
 }
 .nav-logo{
-    width: 100%;
+    width: auto;
     height: 28px;
+    
 }
 .navbar-buttons{
     padding: 9px 14px;
@@ -29,6 +29,18 @@
     border: none;
     color: #FFF ;
     cursor: pointer;
-    margin-left: 20px;
+    margin-left: 10px;
     font-family: 'Inter', sans-serif;
+    
+}
+.right-section-navbar{
+    display: flex;
+    flex: 2;
+    justify-content: right;
+}
+.left-section-navbar{
+    flex: 1;
+    margin-inline: auto;
+    justify-items: left;
+    margin-left: 1%;
 }

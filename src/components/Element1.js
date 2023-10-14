@@ -1,5 +1,5 @@
 import React from "react";
-import Element1Photo from "../images/Illustration.png";
+import Element1Photo from "../images/Illustration.svg";
 import "../styles/Elements.css"
 
 
@@ -38,7 +38,7 @@ export default function Element1() {
                     Register
                 </button>
             </div>
-            <img src={Element1Photo} />
+            <img src={Element1Photo} className="image-element1"/>
             <div className="element1-threedots">
                 <Dots/>
             </div>

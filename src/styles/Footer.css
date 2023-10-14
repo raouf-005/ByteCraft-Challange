@@ -11,7 +11,8 @@
     border-radius: 0.5rem;
     background-color: rgb(59, 69, 72) ;
     border: none;
-    width: 270px;
+    width: 60%;
+    min-width: 210px;
 }
 .input-email-styling::placeholder{
     color: #D9DBE1;
@@ -25,17 +26,21 @@
     display: grid;
     margin-top: 10px;
     padding-block: 60px 20px;
-    grid-template-columns: 42.9% repeat(2,auto) 29%;
+    grid-template-columns: 38.9% repeat(2,auto) 29%;
     background-color: #263238;
     color: #F5F7FA;
-    padding-left: 60px;
+    padding-left: 2%;
 }
 
+.left-section{
+    max-width: 300px;
+}
 .left-section p{
     font-size: 18px;
     color: #F5F7FA;
     line-height: 30px;
     margin-top: 19px;
+
 }
 
 .left-section-title{
