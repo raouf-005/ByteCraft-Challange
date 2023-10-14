@@ -1,5 +1,7 @@
 import React from "react";
 import "../styles/Footer.css"
+import "../App.css"
+
 import {ReactComponent as Footericon} from "../images/footer/Icon.svg"
 import Yt from "../images/footer/yt.svg"
 import Bg from "../images/footer/img1.svg"

@@ -377,3 +377,22 @@
     border-radius: 4px;
     pointer-events: none;
 }
+
+@media(max-width:900px) {
+    .title-element1,.title-element8{
+      font-size: 34px;
+      line-height: 45Px;
+    }
+    h2,.title-element3-category{
+        font-size: 27px;
+    }
+    .App p{
+        font-size: 16px;
+    }
+    .App button{
+        font-size: 15px;
+        padding: 14px 21px;
+    }
+  
+
+  }

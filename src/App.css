@@ -1,7 +1,6 @@
 body{
     font-size: 16px;
     margin: 0;
-    padding-right: 0;
 }
 *{
     font-family: 'Inter', sans-serif;
@@ -11,3 +10,16 @@ button{
     cursor: pointer;
     transition: background-color 0.5s ,border 0.3s;
 }
+@media(max-width:786px) {
+    
+
+.Main{
+  width: 205%;  
+
+}
+.footer-structure{
+    width: 210%;
+}
+
+}
+/* for mobile view*/

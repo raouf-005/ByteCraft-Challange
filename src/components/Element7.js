@@ -16,8 +16,7 @@ const categoryArrayelement7 = [
         img:im3,
         description:"Revamping the Membership Model with Triathlon Australia "
     }
-]
-
+];
 function CategoryTemplate(props){
     return(
         <div className="Image-category-element7">
@@ -33,9 +32,8 @@ function CategoryTemplate(props){
             </div>
         </div>
     )
-}
-const cattempele7=categoryArrayelement7.map((prop)=> <CategoryTemplate {...prop}/>)
-
+};
+const cattempele7=categoryArrayelement7.map((prop,index)=> <CategoryTemplate {...prop} key={index}/>);
 
 export default function Element7(){
     return(
@@ -53,7 +51,5 @@ export default function Element7(){
                 {cattempele7}
             </div>
         </div>
-
-
     )
-}
+};

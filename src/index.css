@@ -16,3 +16,10 @@ h2{
   font-size: 36px;
   margin-bottom:10px ;
 }
+
+@media(max-width: 768px) {
+  /* For mobile phones: */
+  [class*="col-"] {
+    width: 100%;
+  }
+}
